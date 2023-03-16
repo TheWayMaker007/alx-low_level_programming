@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * A program that prints a line with puts function not printf
- * return(0);
+ *main -  A program that prints a line with puts function not printf
+ * return(0) - Outouts a success
  */
 int main(void)
 {
