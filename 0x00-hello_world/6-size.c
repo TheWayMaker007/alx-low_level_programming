@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - Program that prints the ize of a type
+ *main - A Program that prints the size of Variable types in C
  *Return: 0 (Successful)
  */
 int main(void)
