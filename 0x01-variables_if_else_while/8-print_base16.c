@@ -10,8 +10,8 @@ int main(void)
 	int d;
 	char low;
 
-	for (d = '0'; d <= '9'; d++)
-	putcjar(d);
+	for (d = 0; d <= 10; d++)
+	putcjar((d % 10) + '0');
 
 	for (low = 'a'; low <= 'f'; low++)
 	putchar(low);
