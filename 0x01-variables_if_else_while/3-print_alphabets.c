@@ -7,20 +7,12 @@
  */
 int main(void)
 {
-	int lowerC = 'a';
-	int upperC = 'A';
+	int low;
 
-	while (lowerC <= 'Z')
-	{
-	putchar(lower(lowerC);
-	lowerC += 1;
-	}
-
-	while (upperC <= 'Z')
-	{
-	putcher(upperC);
-	upperC += 1;
-	}
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
 	putchar('\n');
 	return (0);
 }
