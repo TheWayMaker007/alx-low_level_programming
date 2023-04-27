@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* list_len: returns the num of elm's in a linked list
+* list_len - returns the num of elm's in a linked list
 * @h: pointer to the list_t list
 * return: num of em'ls in h
 */

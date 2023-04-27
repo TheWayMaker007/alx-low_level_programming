@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* print_list: prints elms of the linked list
+* print_lis - prints elms of the linked list
 * @h: pointer that points to the list_t list which is to be printed
 * return: num of nodes printed
 */
