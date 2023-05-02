@@ -2,7 +2,7 @@
 
 /**
 * print_listint - func that prints all the elms of a linked-list
-* @nnode: num of nodes in linked-list(will be incremented)
+* nnode - num of nodes in linked-list(will be incremented)
 * @h: linked list of type listint_t to print
 * Return: number of nodes
 */
