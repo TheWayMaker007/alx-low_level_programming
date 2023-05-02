@@ -2,21 +2,21 @@
 
 /**
 * print_listint - func that prints all the elms of a linked-list
-* @n-of-nod: num of nodes in linked-list(will be incremented)
-* @t: linked list of type listint_t to print
+* @nnode: num of nodes in linked-list(will be incremented)
+* @h: linked list of type listint_t to print
 * Return: number of nodes
 */
 
 size_t print_listint(const listint_t *h)
 {
-	size_t n-of-nod = 0;
+	size_t nnode = 0;
 
-	while (t)
+	while (h)
 	{
-		printf("%d\n", t->v);
-		n-of-nod++;
-		t = t->next;
+		printf("%d\n", h->v);
+		nnode++;
+		h = h->next;
 	}
 
-	return (n-of-nod);
+	return (nnode);
 }
