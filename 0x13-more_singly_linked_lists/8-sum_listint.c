@@ -14,7 +14,7 @@ int sum_listint(listint_t *head)
 
 	while (tempnode)
 	{
-		sum += tempnode->v;
+		sum += tempnode->n;/* n from the singly linked list */
 		tempnode = tempnode->next;
 	}
 

@@ -24,7 +24,7 @@ int main(void)
     add_nodeint_end(&head, 1024);
     print_listint(head);
     node = get_nodeint_at_index(head, 5);
-    printf("%d\n", node->v);
+    printf("%d\n", node->n);/* n from singly linked list */
     print_listint(head);
     free_listint2(&head);
     return (0);
