@@ -17,7 +17,7 @@ int pop_listint(listint_t **head)
 	if (!head || !*head)
 		return (0);
 
-	dval = (*head)->v;
+	dval = (*head)->n;/* n from singly linked list */
 	tempnode = (*head)->next;
 	free(*head);
 	*head = tempnode;

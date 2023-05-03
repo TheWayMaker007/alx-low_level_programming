@@ -16,7 +16,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (!newnode)
 		return (NULL);
 
-	newnode->v = n;
+	newnode->n = n;/* 1st n from singly linked list */
 	newnode->next = *head;
 	*head = newnode;
 

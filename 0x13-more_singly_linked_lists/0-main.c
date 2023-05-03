@@ -22,7 +22,7 @@ int main(void)
         printf("Error\n");
         return (1);
     }
-    new->v = 9;
+    new->n = 9;/* n is from the singly linked list */
     new->next = head;
     head = new;
     n = print_listint(head);
